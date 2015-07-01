@@ -2,8 +2,11 @@
 module Main where
 
 import Exerc1MyLastTest
+import Exerc2MyButLastTest
 
 -- | The main entry point.
 main :: IO ()
 main = do
-    test
+    testExerc1
+    putStrLn "---"
+    testExerc2
