@@ -4,12 +4,14 @@ module Main where
 import Exerc1MyLastTest
 import Exerc2MyButLastTest
 import Exerc3ElementAtTest
+import Exerc4MyLengthTest
 
 -- | The main entry point.
 main :: IO ()
 main = do
-    testExerc1
-    putStrLn "---"
-    testExerc2
-    putStrLn "---"
-    testExerc3
+--    testExerc1
+--    putStrLn "---"
+--    testExerc2
+--    putStrLn "---"
+--    testExerc3
+    testExerc4
