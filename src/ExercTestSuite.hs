@@ -1,13 +1,14 @@
 module ExercTestSuite where
 
-import           Exerc1MyLast
-import           Exerc2MyButLast
-import           Exerc3ElementAt
-import           Exerc4MyLength
-import           Exerc5MyReverse
+import Exerc1MyLast
+import Exerc2MyButLast
+import Exerc3ElementAt
+import Exerc4MyLength
+import Exerc5MyReverse
+import Exerc6IsPolindrome
 
 runSuite = do
-    testExerc5
+    testExerc6
 
 --------------------------------------------------------------------------------
 
@@ -43,4 +44,30 @@ testExerc4 = do
 testExerc5 = do
     print $ myReverse [1, 2, 3, 4]
     print $ myReverse "Haskell"
+
+--------------------------------------------------------------------------------
+
+testExerc6 = do
+    print $ isPolindrome "test"
+    print $ isPolindrome "mama"
+    print $ isPolindrome "opo"
+    print $ isPolindrome [1, 2, 1]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
